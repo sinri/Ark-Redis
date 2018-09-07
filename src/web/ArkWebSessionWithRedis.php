@@ -12,6 +12,11 @@ namespace sinri\ark\web;
 use Predis\Session\Handler;
 use sinri\ark\database\redis\ArkRedis;
 
+/**
+ * Class ArkWebSessionWithRedis
+ * @package sinri\ark\web
+ * @since 1.1 the replacement of `ArkWebSession::sessionStartWithRedis`
+ */
 class ArkWebSessionWithRedis
 {
     /**
